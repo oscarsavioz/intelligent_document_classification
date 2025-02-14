@@ -1,0 +1,12 @@
+torch
+torchvision
+torch-summary
+lightning
+transformers
+datasets
+sentencepiece
+Pillow
+argparse
+numpy
+wandb
+
