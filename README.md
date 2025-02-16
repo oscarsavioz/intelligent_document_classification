@@ -1,8 +1,10 @@
 # Intelligent document classification system
 ## Oscar Savioz
 This project is about experimenting deep learning algorithms for the document image classification
-task. The main goal is to have trained a multimodal classifier that use **visual** and **textual** data. The dataset used in the exeperiments is the famous **RVL-CDIP** and the
-OCR files contained in it's parent dataset, **IIT-CDIP**.
+task. The dataset used in the exeperiments is the famous **[RVL-CDIP](https://adamharley.com/rvl-cdip/)** and the
+OCR files contained in it's parent dataset, **IIT-CDIP**. Several models were trained on this dataset with different configurations. 
+
+The types of neural networks architectures experimented are mainly Convolutionnal Neural Networks (CNNs), which are specialzed architectures for processing digital images, and Transformers, which are really good at learning patterns of large sequential data as text, but also images. The global idea of this project is to train CNNs on the document images provided in the dataset with some pre-processing. In addition, the text extracted from the images with OCR tools are used to train Transformers-based architectures. The goal is to train the models with different combinations of hyper-parameters and achieve the best accuracy. Some experiments were done on multi-modal and hybrid architectures. 
 
 > Models trained and their weights are not provided in this project. You should train them  on your own and store the models in a repository like Weights and Biases.
 
